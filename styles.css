@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap');
+
+:root {
+  --bg-color: #000000;
+  --accent-gold: #ffd700;
+  --accent-magenta: #ff00aa;
+  --text-primary: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  overflow: hidden;
+}
+
+#outputText {
+  font-size: 7px;
+  line-height: 7px;
+  letter-spacing: 1.5px;
+  white-space: pre;
+  user-select: none;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
